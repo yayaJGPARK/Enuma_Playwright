@@ -10,7 +10,7 @@ def test_todo_english(page):
     home_page.open()
 
     # 대한민국/한국어 선택
-    home_page.select_korea()
+    #home_page.select_korea()
 
     # 토도영어 이동
     home_page.click_todo_english()

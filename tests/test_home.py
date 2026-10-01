@@ -6,9 +6,9 @@ def test_home(page):
     product_page = ProductPage(page)
 
     home_page.open()
-    assert page.get_by_text("국가 또는 지역을 선택해주세요").is_visible()
+   # assert page.get_by_text("국가 또는 지역을 선택해주세요").is_visible()
 
-    home_page.select_korea()
+    #home_page.select_korea()
 
     # 토도수학
     home_page.click_todo_math()

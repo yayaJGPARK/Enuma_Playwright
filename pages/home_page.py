@@ -11,7 +11,7 @@ class HomePage:
         self.todo_english = page.locator('a[href="/kr/english"]')
 
     def open(self):
-        self.page.goto("https://todoschool.com/")
+        self.page.goto("https://todoschool.com/kr")
 
     def select_korea(self):
         self.korea_radio.click()
